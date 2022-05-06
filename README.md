@@ -1,4 +1,3 @@
-# Clinical-Notes
 # Notice
 
 This repository holds an attempt to finding all the notes by the clinical team, and providing sequencing and analysis of the data from the feedback. This data is obtained from [NBME - Score Clinical Patient](https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes) Notes, a kaggle challenge.
@@ -58,3 +57,65 @@ For Data Visulization, SNS was used to plot the following:
 
 - In the end, we highlighted the annotations using Spacy
 
+# How to reproduce results
+
+In this section, provide instructions at least one of the following:
+
+- Reproduce your results fully, including training.
+- Apply this package to other data. For example, how to use the model you trained.
+- Use this package to perform their own study.
+
+Also describe what resources to use for this package, if appropirate. For example, point them to Collab and TPUs.
+
+# Overview of Files in Repo
+
+**NoteBook File**
+
+- nbme-notes.ipynb
+
+**CSV Files**
+
+- features.csv
+- patient_notes.csv
+- sample_submission.csv
+- test.csv
+- train.csv
+
+## Software Setup
+
+**Packages Used**
+
+- warnings
+- numpy
+- pandas
+- seaborn
+- matplotlib.pyplot
+- random
+
+**How To Install**
+
+```
+# Command 1
+>>> pip install numpy pandas seaborn matplotlib spacy
+
+# Command 2
+>>> py -m spacy download en_core_web_sm
+```
+
+## Data
+
+Data can be downloaded from [NBME - Score Clinical Patient](https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes/data)
+
+- Note: For users who are not signed up for the competition would require to sign up for the competition to download the data.
+
+If you have Kaggle API, you can directly use the command:
+
+`kaggle competitions download -c nbme-score-clinical-patient-notes`
+
+## Citations
+
+Some of the references that are used to make this notebook includes:
+
+- https://www.kaggle.com/code/maximilianoalarcon/nbme-score-clinical-patient-notes
+- https://www.kaggle.com/code/bhaveshkumar2806/score-clinical-patient-notes-eda-with-plotly
+- https://www.kaggle.com/code/ammarabbasi1040/nbme-eda-made-simple
