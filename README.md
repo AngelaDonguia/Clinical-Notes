@@ -1,5 +1,6 @@
-# Notice
+![Logo](https://raw.githubusercontent.com/AngelaDonguia/Data-4380/main/UTA-DataScience-Logo.png)
 
+# Notice
 This repository holds an attempt to finding all the notes by the clinical team, and providing sequencing and analysis of the data from the feedback. This data is obtained from [NBME - Score Clinical Patient](https://www.kaggle.com/competitions/nbme-score-clinical-patient-notes) Notes, a kaggle challenge.
 
 # Overview
